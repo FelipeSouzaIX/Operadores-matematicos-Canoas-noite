@@ -1,0 +1,11 @@
+void main() {
+  String nome = 'João';
+
+  int salarioFixo = 500;
+  double totalDeVendas = 1230.30;
+
+  double comissao = totalDeVendas * 0.15;
+  double salarioFinal = salarioFixo + comissao;
+
+  print('O vendedor $nome irá receber R\$ ${salarioFinal.toStringAsFixed(2)}');
+}
