@@ -1,0 +1,9 @@
+void main() {
+  int calorFornecido = 23;
+  int trabalhoRealizado = 12;
+
+  double capacidadePercentual = trabalhoRealizado / calorFornecido * 100;
+
+  print(
+      'A capacidade percentual do motor é de ${capacidadePercentual.toStringAsFixed(2)}%');
+}
