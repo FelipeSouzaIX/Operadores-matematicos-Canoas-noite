@@ -1,0 +1,10 @@
+void main() {
+  int idDoFuncionario = 25;
+  int horasTrabalhadas = 100;
+
+  double valorHora = 5.50;
+  double salario = horasTrabalhadas * valorHora;
+
+  print("Id do funcionário: $idDoFuncionario");
+  print("Salário: R\$ ${salario.toStringAsFixed(2)}");
+}
