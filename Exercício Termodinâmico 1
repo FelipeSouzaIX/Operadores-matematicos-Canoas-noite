@@ -1,0 +1,11 @@
+void main(){
+  
+  int calorRecebido = 50;
+  int trabalhoRealizado = 12;
+  int energiaInicial = 100;
+  
+  int energiaFinal = energiaInicial+calorRecebido-trabalhoRealizado;
+  
+  print('A energia final do sistemaé: $energiaFinal J');
+  
+}
